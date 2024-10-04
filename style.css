@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+
+.top {
+  background-image: url(bilder/homepage.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+header {
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  font-size: 1.5rem;
+  position: sticky;
+}
+header div img {
+  height: 60px;
+  width: auto;
+}
+.ansök {
+  background-color: rgb(59, 59, 192); /* Grön bakgrund */
+  color: white; /* Vit textfärg */
+  padding: 15px 30px; /* Utrymme runt texten */
+  text-align: center; /* Centrerad text */
+  text-decoration: none; /* Ingen understrykning */
+  display: inline-block; /* Blockelement i rad */
+  font-size: 16px; /* Teckenstorlek */
+  margin: 20px 10px; /* Utrymme runt knappen */
+  cursor: pointer; /* Byter till pekaren */
+  border-radius: 5px; /* Rundade hörn */
+  transition: 0.3s; /* Animering vid hovring */
+}
+
+nav a {
+  margin: 10px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 300px;
+}
+.hero h1 {
+  font-size: 58px;
+  align-items: center;
+}
+.hero h2 {
+  font-size: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  margin: 10px 0px;
+}
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8c8c84d;
+}
+.right {
+  display: flex; /* Använd flexbox för att organisera innehållet */
+  flex-direction: column; /* Se till att innehållet staplas vertikalt */
+  align-items: flex-start; /* Justera innehållet till vänster */
+  /* Ljus bakgrund för högerdelen */
+  padding: 40px;
+  padding: 20px;
+}
+
+.left img {
+  width: 50%;
+}
+.right h1,
+.right h2 {
+  margin: 10px 0;
+}
+.right h1 {
+  font-size: 18px;
+}
+.right h2 {
+  font-size: 36px;
+}
+.left img {
+  width: 435px;
+  height: 440px;
+}
+.student {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  height: 100vh;
+  margin: 30px;
+}
+.student img {
+  width: 200px; /* Samma bredd för alla bilder */
+  height: 200px; /* Samma höjd för alla bilder */
+  object-fit: cover; /* Gör att bilderna skalar korrekt */
+}
+.student1,
+.student2,
+.student3 {
+  width: 347px;
+  height: 800px;
+
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+.rubrik {
+  align-items: center;
+  padding: 100px;
+  text-align: center;
+  font-size: 36px;
+}
+.container2 {
+  background-color: #c8c8c84d;
+  margin: 10px 0px;
+}
+.rubrik2 {
+  flex-direction: column;
+  margin: 20px 0px;
+  padding: 150px;
+  text-align: center;
+  font-size: 48px;
+  background-color: #b196964d;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(75, 68, 68);
+  font-size: 26px;
+}
+.column img {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(192, 192, 244);
+  border-radius: 100%;
+}
+.column2 {
+  display: flex;
+  flex-direction: column; /* Stapla elementen vertikalt */
+}
+
+.column2 ul {
+  list-style-type: none; /* Ta bort standardlistans utseende */
+  padding: 0; /* Ta bort padding */
+}
+
+.column2 ul li {
+  margin: 30px 0; /* Skapa mellanrum mellan varje listobjekt */
+}
